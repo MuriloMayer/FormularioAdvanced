@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Com Envio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="form.js"></script>
+</head>
+<body>
+    <form action="https://formsubmit.co/murilomayer@live.com"
+    method="POST"
+    data-form
+    >
+
+    <label for="name">Nome</label>
+    <input type="text" name="name" id="name">
+    <label for="email">E-Mail</label>
+    <input type="email" name="email" id="email">
+    <label for="mensage"></label>
+    <textarea name="mensage" id="mensage" cols="30" rows="10" required></textarea>
+    <button type="submit" data-button>Enviar</button>
+    <input type="hidden" name="_captcha" value="false">
+</form>
+</body>
+</html>
